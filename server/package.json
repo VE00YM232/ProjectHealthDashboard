@@ -1,0 +1,26 @@
+{
+  "name": "kpi-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^4.13.0",
+    "@azure/msal-node": "^3.8.4",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "isomorphic-fetch": "^3.0.0",
+    "p-limit": "^7.2.0",
+    "pg": "^8.16.3",
+    "properties-reader": "^2.3.0",
+    "winston": "^3.19.0",
+    "xlsx": "^0.18.5"
+  }
+}

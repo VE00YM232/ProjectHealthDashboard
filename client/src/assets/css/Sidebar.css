@@ -1,0 +1,154 @@
+/* Year level */
+.year-link {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #ffffff !important;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 2;
+  overflow-wrap: break-word;
+}
+.year-link:hover {
+  background: #252C41;
+}
+
+/* Hide dropdown caret arrow */
+.no-caret::after {
+  display: none !important;
+}
+
+/* Hide all dropdown carets in navbar */
+.navbar .nav-link.dropdown-toggle::after,
+.navbar .dropdown-toggle::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* Light theme styles */
+.white-content .year-link {
+  color: #2E3A59 !important;
+}
+.white-content .year-link:hover {
+  background: #E9EDF5;
+}
+.white-content .year-link.active {
+  background: #DDE6FF;
+  border-left: 4px solid #4C6FFF;
+  padding-left: 11px !important;
+}
+
+/* Month level */
+.month-link {
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 8px 15px 8px 25px !important;
+  color: #ffffff !important;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 3;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+.month-link:hover {
+  background: #252C41;
+}
+
+.white-content .month-link {
+  color: #2E3A59 !important;
+}
+.white-content .month-link:hover {
+  background: #E9EDF5;
+}
+.white-content .month-link.active {
+  background: #DDE6FF;
+  border-left: 4px solid #4C6FFF;
+  padding-left: 21px !important;
+}
+
+/* Project level */
+.project-link {
+  font-weight: 400;
+  font-size: 1.1rem;
+  padding: 6px 15px 6px 40px !important;
+  color: #ffffff !important;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 2;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+.project-link:hover {
+  background: #252C41;
+}
+
+.white-content .project-link {
+  color: #2E3A59 !important;
+}
+.white-content .project-link:hover {
+  background: #E9EDF5;
+}
+.white-content .project-link.active {
+  color: #2E3A59 !important;
+  background: #DDE6FF;
+  border-left: 4px solid #4C6FFF;
+  font-weight: 600;
+  padding-left: 36px !important;
+}
+
+.project-link.active {
+  color: #8FA3FF !important;
+  font-weight: 600;
+  background: #2F3A5F;
+}
+
+/* Release level */
+.release-link {
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 1.5;
+  padding: 6px 15px !important;
+  color: #ffffff !important;
+  font-size: 0.9rem;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
+.release-link:hover {
+  color: #8FA3FF !important;
+  background: #252C41;
+}
+
+.white-content .release-link {
+  color: #2E3A59 !important;
+}
+.white-content .release-link:hover {
+  color: #2E3A59 !important;
+  background: #E9EDF5;
+}
+
+/* Arrow */
+.arrow {
+  font-size: 0.9rem;
+  margin-left: auto;
+  opacity: 1;
+  color: #ffffff;
+  flex-shrink: 0;
+}
+
+.white-content .arrow {
+  color: #5B6B8C;
+}
+
+/* General active state for all nav links in light theme */
+.white-content .nav-link.active {
+  background: #DDE6FF;
+  border-left: 4px solid #4C6FFF;
+  font-weight: 600;
+}

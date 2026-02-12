@@ -1,0 +1,10 @@
+/node_modules
+package-lock.json
+
+# Log files
+logs/
+*.log
+
+# Secrets - never commit real config
+config.properties
+.env
